@@ -33,6 +33,7 @@ Kindly see the solution folder structure
      <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
      Since we are using .Net MVC application, below is the example how am i using in below file Path "ReactJS/Index.cshtml"
+	
 	-------------ReactJS/Index.cshtml-------------------------------------------------------------------------------------------
  	     @{
  	         ViewBag.Title = "Index";
