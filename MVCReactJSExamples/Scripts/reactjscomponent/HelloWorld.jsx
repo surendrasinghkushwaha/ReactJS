@@ -6,15 +6,17 @@
     }
 
     componentWillMount() {
+        debugger;
         $.ajax({
             method: "GET",
             url: this.props.url,
             dataType: "json",
             success: function (response) {
+                debugger;
                 var vresp = response;
                 this.setState({ data: vresp.result });
 
-            }.bind(this),
+            }.bind(this) ,
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert(JSON.stringify(XMLHttpRequest.responseText));
             }

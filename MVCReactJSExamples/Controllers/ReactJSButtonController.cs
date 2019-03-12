@@ -49,5 +49,9 @@ namespace ReactJSExamples.Controllers
         {
             return View();
         }
+          public ActionResult ReactContext()
+        {
+            return View();
+        }
   }
 }

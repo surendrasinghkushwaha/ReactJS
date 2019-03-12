@@ -1,15 +1,17 @@
 ﻿
 class ChildCompReceivePropComponent extends React.Component {
     constructor(props) {
-        super(props);
+        super(props); debugger;
         this.state = { recievedValue: this.props.parentValue };
-        this.buttonClick = this.buttonClick.bind(this);
+       this.buttonClick = this.buttonClick.bind(this);
     }
     componentWillReceiveProps(nextProps) {
+        debugger;
         this.setState({ recievedValue: nextProps.parentValue });
     }
     buttonClick() {
         var localtime = new Date().toLocaleTimeString();
+        debugger;
         this.props.parentMethod(localtime);
     }
     render() {
@@ -19,10 +21,11 @@ class ChildCompReceivePropComponent extends React.Component {
                 <br />
                 props-{this.props.parentValue}
                 <br /> 
-                <button className="btn btn-success" onClick={this.buttonClick.bind(this)}>passing value to parent </button>
+                <button className="btn btn-success" onClick={this.buttonClick }>passing value to parent </button>
             </div>
         );
     }
 }
 
 export default ChildCompReceivePropComponent;
+

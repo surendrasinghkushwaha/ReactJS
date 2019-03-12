@@ -235,6 +235,8 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\reactjscomponent\ProductTableComponent.jsx" />
     <Content Include="Scripts\reactjscomponent\TextBoxChangeEventUpdateStateComponent.jsx" />
+    <Content Include="Scripts\reactjscomponent\UseConstComponent.jsx" />
+    <Content Include="Scripts\reactjscomponent\UseContextComponent.jsx" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\reactjscomponent\TextBoxComponent.jsx" />
@@ -257,6 +259,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\ReactJSButton\Index.cshtml" />
     <Content Include="Views\ReactJSButton\ReactJSFilterData.cshtml" />
+    <Content Include="Views\ReactJSButton\ReactContext.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

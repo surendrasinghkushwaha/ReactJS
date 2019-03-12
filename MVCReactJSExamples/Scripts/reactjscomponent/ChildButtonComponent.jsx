@@ -3,7 +3,7 @@ class ChildButtonComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = { recievedValue: this.props.parentValue };
-        this.buttonClick = this.buttonClick.bind(this);
+        //this.buttonClick = this.buttonClick.bind(this);
     }
      
     buttonClick() { 
