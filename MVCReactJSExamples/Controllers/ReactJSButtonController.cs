@@ -13,45 +13,15 @@ namespace ReactJSExamples.Controllers
         {
             return View();
         }
-        public JsonResult GetProductItems()
-        {
-            IList<Product> lst = GetAllProduct();
-            return Json(new { result = lst }, JsonRequestBehavior.AllowGet);
-        }
-        [HttpPost]
-        public JsonResult GetProductItem(string item)
-        {
-            IList<Product> lst = GetAllProduct();
-             List<Product> flst = lst.Where(x => x.item.ToUpper().Contains( item.ToUpper())).ToList();
-            return Json(new { result = flst } );
-        }
-        private IList<Product> GetAllProduct()
-        {
-           return new List<Product> {
-                new Product { item = "A1", description = "A1 apple" },
-                new Product { item = "A2", description = "A2 apple" },
-                new Product { item = "A3", description = "A3 apple" },
-                new Product { item = "A4", description = "A4 apple" },
-                new Product { item = "A5", description = "A5 apple" },
-                new Product { item = "A6", description = "A6 apple" },
-                new Product { item = "A7", description = "A7 apple" },
-                new Product { item = "A8", description = "A8 apple" },
-                new Product { item = "A9", description = "A9 apple" },
-                 new Product { item = "A10", description = "A10 apple" },
-           };
-        }
-        public class Product
-        {
-            public string item { get; set; }
-            public string description { get; set; }
-        }
-          public ActionResult ReactJSFilterData()
+        public ActionResult ReactConst()
         {
             return View();
         }
-          public ActionResult ReactContext()
+        public ActionResult ReactTextboxStateChange()
         {
             return View();
         }
-  }
+
+
+    }
 }

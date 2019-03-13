@@ -1,5 +1,4 @@
-﻿import UseConstComponent from "./UseConstComponent";
-// Context lets us pass a value deep into the component tree
+﻿ // Context lets us pass a value deep into the component tree
 // without explicitly threading it through every component.
 // Create a context for the current theme (with "light" as the default).
 const ThemeContext = React.createContext('light');
@@ -21,8 +20,7 @@ class useContextComponent extends React.Component {
 // pass the theme down explicitly anymore.
 const Toolbar=props=>  (
         <div className='row'>
-            <div className="col-md-3"> use const
-                 <UseConstComponent />
+            <div className="col-md-3">  
             </div> 
             use context
             <div className="col-md-3"> <ThemedButton />

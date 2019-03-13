@@ -219,11 +219,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\reactjscomponent\ButtonComponent.jsx" />
-    <Content Include="Scripts\reactjscomponent\ChildButtonComponent.jsx" />
-    <Content Include="Scripts\reactjscomponent\ChildCompReceivePropComponent.jsx" />
-    <Content Include="Scripts\reactjscomponent\FilterDataComponent.jsx" />
-    <Content Include="Scripts\reactjscomponent\HelloWorld.jsx" />
+    <Content Include="Scripts\ReactJSButton\ButtonComponent.jsx" />
+    <Content Include="Scripts\ReactJSButton\ChildButtonComponent.jsx" />
+    <Content Include="Scripts\ReactJSButton\ChildCompReceivePropComponent.jsx" />
+    <Content Include="Scripts\reactjs\FilterDataComponent.jsx" />
+    <Content Include="Scripts\reactjs\HelloWorld.jsx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -233,13 +233,16 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\reactjscomponent\ProductTableComponent.jsx" />
-    <Content Include="Scripts\reactjscomponent\TextBoxChangeEventUpdateStateComponent.jsx" />
-    <Content Include="Scripts\reactjscomponent\UseConstComponent.jsx" />
-    <Content Include="Scripts\reactjscomponent\UseContextComponent.jsx" />
+    <Content Include="Scripts\ReactJSButton\TextBoxChangeEventUpdateStateComponent.jsx" />
+    <Content Include="Scripts\reactjs\ProductTableComponent.jsx" />
+    <Content Include="Scripts\reactjs\TextBoxComponent.jsx" />
+    <Content Include="Scripts\ReactJSButton\UseConstComponent.jsx" />
+    <Content Include="Scripts\ReactJSButton\UseContextComponent.jsx" />
+    <Content Include="Scripts\reactjs\ProductLoadDataButtonClickComponent.jsx" />
+    <Content Include="Scripts\reactjs\ProductLoadDataComponent.jsx" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\reactjscomponent\TextBoxComponent.jsx" />
+    <Content Include="Scripts\ReactJSButton\TextBoxComponent.jsx" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -258,12 +261,14 @@
     <Content Include="Views\ReactJS\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\ReactJSButton\Index.cshtml" />
-    <Content Include="Views\ReactJSButton\ReactJSFilterData.cshtml" />
-    <Content Include="Views\ReactJSButton\ReactContext.cshtml" />
+    <Content Include="Views\ReactJS\ReactJSFilterData.cshtml" />
+    <Content Include="Views\ReactJSButton\ReactConst.cshtml" />
+    <Content Include="Views\ReactJSButton\ReactTextboxStateChange.cshtml" />
+    <Content Include="Views\ReactJS\ReactLoadData.cshtml" />
+    <Content Include="Views\ReactJS\ReactLoadDataButtonClick.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\react\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

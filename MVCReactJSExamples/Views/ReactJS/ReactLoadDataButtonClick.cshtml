@@ -1,17 +1,17 @@
 ﻿
 @{
-    /**/
-
-    ViewBag.Title = "React context";
+    ViewBag.Title = "React Load Data Button Click";
 }
-<div>React context example</div>
+
+<h2>React Load Data on Button Click</h2>
 <div id="root" class="container"></div>
 
 @section Scripts{
     @*<script src="~/Scripts/react/react-0.12.2.min.js"></script>*@
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <script type="module" src='@Url.Content("~/Scripts/reactjscomponent/UseContextComponent.jsx")'></script>
+
+    <script type="module" src="@Url.Content("~/Scripts/reactjs/ProductLoadDataButtonClickComponent.jsx")"></script>
 
 
 }

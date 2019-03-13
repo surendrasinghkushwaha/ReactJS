@@ -1,6 +1,6 @@
 ﻿class UseConstComponent extends React.Component {
     render() {
-        return <Toolbar mycustomdata="dark" />;
+        return <Toolbar mycustomdata="btn btn-warning" />;
     }
 }
 
@@ -16,7 +16,8 @@ const Toolbar = props => (
 
 class ThemedButton extends React.Component {
     render() {
-        return <button  > {this.props.mycustomdata} </button>;
+        return <button className={this.props.mycustomdata} > test button const theme </button>;
     }
 }
 export default UseConstComponent;
+ReactDOM.render(<UseConstComponent />, document.getElementById('root'));

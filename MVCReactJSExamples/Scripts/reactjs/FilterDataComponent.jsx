@@ -27,7 +27,7 @@ class FilterDataComponent extends React.Component {
         var param = JSON.stringify({ item: value });
         $.ajax({
             method: "POST",
-            url: "/ReactJSButton/GetProductItem",
+            url: "/ReactJS/GetProductItem",
             data: param,
             contentType: "application/json; charset=UTF-8",
             dataType: "json",

@@ -1,16 +1,17 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "React Load Data";
 }
-<h2>ReactJS example</h2>
+
+<h2>React Load Data</h2>
 <div id="root" class="container"></div>
 
 @section Scripts{
     @*<script src="~/Scripts/react/react-0.12.2.min.js"></script>*@
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
- 
-    <script type="module" src="@Url.Content("~/Scripts/reactjs/HelloWorld.jsx")"></script>
 
+    <script type="module" src="@Url.Content("~/Scripts/reactjs/ProductLoadDataComponent.jsx")"></script>
+    
 
 }

@@ -30,4 +30,5 @@
         );
     }
 }
-export default TextBoxChangeEventUpdateStateComponent;
+
+ReactDOM.render(<TextBoxChangeEventUpdateStateComponent />, document.getElementById('root'));

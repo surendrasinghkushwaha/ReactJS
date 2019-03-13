@@ -16,7 +16,8 @@
                 var vresp = response;
                 this.setState({ data: vresp.result });
 
-            }.bind(this) ,
+            }.bind(this)//hint: .bind(this) not added to success function then this.setState is undefine
+            ,
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert(JSON.stringify(XMLHttpRequest.responseText));
             }
