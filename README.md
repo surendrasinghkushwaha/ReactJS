@@ -11,12 +11,12 @@ Kindly see the solution folder structure
 		|
 		|-Scripts
 		|    |-reactjs  ( based on data we manipulate DOM)
-		|	 |   |-FilterDataComponent.jsx
-		|	 |   |-HelloWorld.jsx
-		|	 |   |-ProductLoadDataButtonClickComponent.jsx
-		|	 |   |-ProductLoadDataComponent.jsx
-		|	 |   |-ProductTableComponent.jsx
-		|	 |   |-TextBoxComponent.jsx
+		|    |   |-FilterDataComponent.jsx
+		|    |   |-HelloWorld.jsx
+		|    |   |-ProductLoadDataButtonClickComponent.jsx
+		|    |   |-ProductLoadDataComponent.jsx
+		|    |   |-ProductTableComponent.jsx
+		|    |   |-TextBoxComponent.jsx
 		|    | 
 		|    |-reactjscomponent (Basic react component)
 		|         |-ButtonComponent.jsx
