@@ -28,7 +28,7 @@ Kindly see the solution folder structure
 		|   |     |- 
 		|   |     |- 
 		|-Views
-		|	|-Home (provide other view link that have react component example)
+		|   |-Home (provide other view link that have react component example)
 		|   |	|-Index.cshtml ( have example link)
 		|   |	 
 		|   |-ReactJS
