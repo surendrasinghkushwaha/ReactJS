@@ -4,29 +4,41 @@ Kindly see the solution folder structure
 	
 	----------------------------------------------------------------------------------------------------------------------------
 	|-MVCReactJSExamples (project)
-		|-Controllers  (have acton method)
+		|-Controllers  (have action method)
 		|    |-HomeController.cs
-		|    |-ReactJSButtonController.cs
-		|    |-ReactJSController.cs
+		|    |-ReactJSButtonController.cs ( have action method Index,ReactConst)
+		|    |-ReactJSController.cs ( have action method Index,ReactLoadData,ReactLoadDataButtonClick, ReactJSFilterData and other method that return data)
 		|
 		|-Scripts
-		|    |-reactjscomponent
-		|         |-HelloWorld.jsx
-		|         |-TextBoxComponent.jsx
-		|         |-TextBoxChangeEventUpdateStateComponent.jsx
-		|         |-ChildButtonComponent.jsx (eplain state and props of component, and pass data between component)
-		|         |-ChildCompReceivePropComponent.jsx
-		|         |-ProductTableComponent.jsx
+		|    |-reactjs  ( based on data we manipulate DOM)
+		|	 |   |-FilterDataComponent.jsx
+		|	 |   |-HelloWorld.jsx
+		|	 |   |-ProductLoadDataButtonClickComponent.jsx
+		|	 |   |-ProductLoadDataComponent.jsx
+		|	 |   |-ProductTableComponent.jsx
+		|	 |   |-TextBoxComponent.jsx
+		|    | 
+		|    |-reactjscomponent (Basic react component)
 		|         |-ButtonComponent.jsx
-		|         |-FilterDataComponent.jsx
+		|         |-ChildButtonComponent.jsx
+		|         |-ChildCompReceivePropComponent.jsx
+		|         |-TextBoxChangeEventUpdateStateComponent.jsx (explain state and props of component, and pass data between component)
+		|         |-TextBoxComponent.jsx
+		|         |-UseConstComponent.jsx
+		|         |- 
+		|         |- 
 		|-Views
 		|   |-Home (provide other view link that have react component example)
+		|   |	|-Index.cshtml ( have example link)
+		|   |	 
 		|   |-ReactJS
-		|   |     |-Index.cshtml  ( React@16 CDN Link, and  HelloWorld.jsx)
-		|   |-ReactJSButton
-		|   |     |-Index.cshtml ( React@16 CDN Link, and  ButtonComponent.jsx and other component that 
-		|   |     |				is imported in ButtonComponent)
-		|   |     |-ReactJSFilterData.cshtml ( React@16 CDN Link, and ProductTableComponent.jsx, FilterDataComponent.jsx)
+		|   |   |-Index.cshtml  ( React@16 CDN Link, and  HelloWorld.jsx)
+		|   |	|-ReactJSFilterData.cshtml ( take user input and filter data)
+		|   |	|-ReactLoadData.cshtml  
+		|   |	|-ReactLoadDataButtonClick.cshtml  
+		|   |-ReactJSButton (basic example of reactJS component)
+		|   |     |-Index.cshtml  
+		|   |     |-ReactConst.cshtml ( use of const instead of component  )
 		|   |
 
 	----------------------------------------------------------------------------------------------------------------------------
