@@ -38,7 +38,7 @@ Kindly see the solution folder structure
 		|   |	|-ReactJSFilterData.cshtml ( take user input and filter data)
 		|   |	|-ReactLoadData.cshtml  
 		|   |	|-ReactLoadDataButtonClick.cshtml  
-		|   |	|-ReactBootstrapTable.cshtml  ( here I am using 
+		|   |	|-ReactBootstrapTable.cshtml  ( Please see "************BootstrapTable************" section)
 		|   |	|-ReactBootstrapTableCRUD.cshtml  
 		|   |-ReactJSButton (basic example of reactJS component)
 		|   |     |-Index.cshtml  
@@ -67,6 +67,7 @@ Kindly see the solution folder structure
    	       <script type="module" src="@Url.Content("~/Scripts/reactjscomponent/HelloWorld.jsx")"></script> 
   	    }    
 	----------------------------------------------------------------------------------------------------------------------------
+		************BootstrapTable************
 		For BootstrapTable you can use any one of link, I have use in two example 
 		1. view > ReactBootstrapTable.cshtml 
 			and react component  Scripts>ReactBootstrapTableComponent.jsx where I have make ajax call to
