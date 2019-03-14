@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "ReactBootstrapTable";
+}
+
+<h2>ReactBootstrapTable</h2>
+<div id="root" class="container"></div>
+
+@section Scripts{
+    @*<script src="~/Scripts/react/react-0.12.2.min.js"></script>*@
+    <!-- we still need bootstrap css -->
+    <link rel="stylesheet" href="https://npmcdn.com/react-bootstrap-table/dist/react-bootstrap-table-all.min.css">
+    </link>
+
+    <!-- JS -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    @* <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap-table/4.3.1/react-bootstrap-table.js"  >
+        <script>*@
+
+
+    <script type="text/javascript" src='@Url.Content("~/Scripts/react-bootstrap-table-4.3.1.js")'></script>
+    <script type="module" src='@Url.Content("~/Scripts/ReactJS/ReactBootstrapTableComponent.jsx")'>
+    </script>
+     
+}

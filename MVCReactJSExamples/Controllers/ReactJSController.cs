@@ -26,6 +26,14 @@ namespace ReactJSExamples.Controllers
         {
             return View();
         }
+        public ActionResult ReactBootstrapTable()
+        {
+            return View();
+        }
+        public ActionResult ReactBootstrapTableCRUD()
+        {
+            return View();
+        }
 
         //-------------------------------------------
         public JsonResult GetMessage()

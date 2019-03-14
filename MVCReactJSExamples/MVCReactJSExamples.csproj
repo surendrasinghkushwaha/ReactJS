@@ -219,6 +219,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\dummydata\SampleProduct.json" />
+    <Content Include="Scripts\react-bootstrap-table-4.3.1.js" />
     <Content Include="Scripts\ReactJSButton\ButtonComponent.jsx" />
     <Content Include="Scripts\ReactJSButton\ChildButtonComponent.jsx" />
     <Content Include="Scripts\ReactJSButton\ChildCompReceivePropComponent.jsx" />
@@ -235,6 +237,8 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\ReactJSButton\TextBoxChangeEventUpdateStateComponent.jsx" />
     <Content Include="Scripts\reactjs\ProductTableComponent.jsx" />
+    <Content Include="Scripts\reactjs\ReactBootstrapTableCRUDComponent.jsx" />
+    <Content Include="Scripts\reactjs\ReactBootstrapTableComponent.jsx" />
     <Content Include="Scripts\reactjs\TextBoxComponent.jsx" />
     <Content Include="Scripts\ReactJSButton\UseConstComponent.jsx" />
     <Content Include="Scripts\ReactJSButton\UseContextComponent.jsx" />
@@ -266,6 +270,8 @@
     <Content Include="Views\ReactJSButton\ReactTextboxStateChange.cshtml" />
     <Content Include="Views\ReactJS\ReactLoadData.cshtml" />
     <Content Include="Views\ReactJS\ReactLoadDataButtonClick.cshtml" />
+    <Content Include="Views\ReactJS\ReactBootstrapTable.cshtml" />
+    <Content Include="Views\ReactJS\ReactBootstrapTableCRUD.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

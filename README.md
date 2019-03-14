@@ -7,7 +7,7 @@ Kindly see the solution folder structure
 		|-Controllers  (have action method)
 		|   |-HomeController.cs
 		|   |-ReactJSButtonController.cs ( have action method Index,ReactConst)
-		|   |-ReactJSController.cs ( have action method Index,ReactLoadData,ReactLoadDataButtonClick, ReactJSFilterData and other method that return data)
+		|   |-ReactJSController.cs ( have action method Index,ReactLoadData,ReactLoadDataButtonClick, ReactJSFilterData,ReactBootstrapTable, ReactBootstrapTableCRUD and other method that return data)
 		|
 		|-Scripts
 		|   |-reactjs  ( based on data we manipulate DOM)
@@ -16,6 +16,8 @@ Kindly see the solution folder structure
 		|   |   |-ProductLoadDataButtonClickComponent.jsx
 		|   |   |-ProductLoadDataComponent.jsx
 		|   |   |-ProductTableComponent.jsx
+		|   |   |-ReactBootstrapTableComponent.jsx
+		|   |   |-ReactBootstrapTableCRUDComponent.jsx
 		|   |   |-TextBoxComponent.jsx
 		|   | 
 		|   |-reactjscomponent (Basic react component)
@@ -36,6 +38,8 @@ Kindly see the solution folder structure
 		|   |	|-ReactJSFilterData.cshtml ( take user input and filter data)
 		|   |	|-ReactLoadData.cshtml  
 		|   |	|-ReactLoadDataButtonClick.cshtml  
+		|   |	|-ReactBootstrapTable.cshtml  ( here I am using 
+		|   |	|-ReactBootstrapTableCRUD.cshtml  
 		|   |-ReactJSButton (basic example of reactJS component)
 		|   |     |-Index.cshtml  
 		|   |     |-ReactConst.cshtml ( use of const instead of component  )
@@ -63,4 +67,16 @@ Kindly see the solution folder structure
    	       <script type="module" src="@Url.Content("~/Scripts/reactjscomponent/HelloWorld.jsx")"></script> 
   	    }    
 	----------------------------------------------------------------------------------------------------------------------------
-
+		For BootstrapTable you can use any one of link, I have use in two example 
+		1. view > ReactBootstrapTable.cshtml 
+			and react component  Scripts>ReactBootstrapTableComponent.jsx where I have make ajax call to
+			bring script/dummydata/sampleProduct.json data and bind the grid
+		2. view > ReactBootstrapTableCRUD.cshtml 
+			and react component Scripts>ReactBootstrapTableCRUDComponent.jsx here only in UI I have perform CRUD 
+			operation on  BootstrapTable data.
+			
+			
+		 <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap-table/4.3.1/react-bootstrap-table.js"  >
+        <script>  
+		-----OR-----
+       <script type="text/javascript" src='@Url.Content("~/Scripts/react-bootstrap-table-4.3.1.js")'></script>
