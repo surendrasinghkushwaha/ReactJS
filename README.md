@@ -5,30 +5,30 @@ Kindly see the solution folder structure
 	----------------------------------------------------------------------------------------------------------------------------
 	|-MVCReactJSExamples (project)
 		|-Controllers  (have action method)
-		|    |-HomeController.cs
-		|    |-ReactJSButtonController.cs ( have action method Index,ReactConst)
-		|    |-ReactJSController.cs ( have action method Index,ReactLoadData,ReactLoadDataButtonClick, ReactJSFilterData and other method that return data)
+		|   |-HomeController.cs
+		|   |-ReactJSButtonController.cs ( have action method Index,ReactConst)
+		|   |-ReactJSController.cs ( have action method Index,ReactLoadData,ReactLoadDataButtonClick, ReactJSFilterData and other method that return data)
 		|
 		|-Scripts
-		|    |-reactjs  ( based on data we manipulate DOM)
-		|    |   |-FilterDataComponent.jsx
-		|    |   |-HelloWorld.jsx
-		|    |   |-ProductLoadDataButtonClickComponent.jsx
-		|    |   |-ProductLoadDataComponent.jsx
-		|    |   |-ProductTableComponent.jsx
-		|    |   |-TextBoxComponent.jsx
-		|    | 
-		|    |-reactjscomponent (Basic react component)
-		|         |-ButtonComponent.jsx
-		|         |-ChildButtonComponent.jsx
-		|         |-ChildCompReceivePropComponent.jsx
-		|         |-TextBoxChangeEventUpdateStateComponent.jsx (explain state and props of component, and pass data between component)
-		|         |-TextBoxComponent.jsx
-		|         |-UseConstComponent.jsx
-		|         |- 
-		|         |- 
+		|   |-reactjs  ( based on data we manipulate DOM)
+		|   |   |-FilterDataComponent.jsx
+		|   |   |-HelloWorld.jsx
+		|   |   |-ProductLoadDataButtonClickComponent.jsx
+		|   |   |-ProductLoadDataComponent.jsx
+		|   |   |-ProductTableComponent.jsx
+		|   |   |-TextBoxComponent.jsx
+		|   | 
+		|   |-reactjscomponent (Basic react component)
+		|   |     |-ButtonComponent.jsx
+		|   |     |-ChildButtonComponent.jsx
+		|   |     |-ChildCompReceivePropComponent.jsx
+		|   |     |-TextBoxChangeEventUpdateStateComponent.jsx (explain state and props of component, and pass data between component)
+		|   |     |-TextBoxComponent.jsx
+		|   |     |-UseConstComponent.jsx
+		|   |     |- 
+		|   |     |- 
 		|-Views
-		|   |-Home (provide other view link that have react component example)
+		|	|-Home (provide other view link that have react component example)
 		|   |	|-Index.cshtml ( have example link)
 		|   |	 
 		|   |-ReactJS
